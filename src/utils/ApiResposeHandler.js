@@ -7,4 +7,4 @@ class ApiResposeHandler {
     }
 }
 
-module.exports = ApiResposeHandler;
+export { ApiResposeHandler }

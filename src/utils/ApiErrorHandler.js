@@ -1,4 +1,4 @@
-class ApiErrorHandler extends Error {
+class ApiError extends Error {
     constructor(statusCode, message, stack="", errors=[]) {
         super(message);
         this.data = null;
